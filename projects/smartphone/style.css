@@ -1,0 +1,351 @@
+:root {
+    --apps: 12vmin;
+    --spacing: calc(var(--apps) / 3);
+  }
+  
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+  .outer-container {
+    border-radius: var(--spacing);
+    background-color: tan;
+    padding: var(--spacing);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: max-content;
+  }
+  
+  .container {
+    background-color: tan;
+    display: flex;
+    gap: var(--spacing);
+    padding: var(--spacing);
+    
+  }
+  
+  
+  .app1 {
+    border-radius: 10px;
+    width: var(--apps);
+    height: var(--apps);
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: background-color;
+    transition-duration: 2s;
+  }
+  
+  .app1:hover{
+    background-color: cyan;
+  }
+  
+  .app2 {
+    border-radius: 10px;
+    width: var(--apps);
+    height: var(--apps);
+    background-color: hotpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: background-color;
+    transition-duration: 2s;
+  }
+  
+  .app2:hover{
+    background-color: cyan;
+  }
+  
+  .app3 {
+    border-radius: 10px;
+    width: var(--apps);
+    height: var(--apps);
+    background-color: magenta;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: background-color;
+    transition-duration: 2s;
+  }
+  
+  .app3:hover{
+    background-color: cyan;
+  }
+  
+  .app4 {
+    border-radius: 10px;
+    width: var(--apps);
+    height: var(--apps);
+    background-color: mediumorchid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: background-color;
+    transition-duration: 2s;
+  }
+  
+  .app4:hover{
+    background-color: cyan;
+  }
+  
+  .app5 {
+    border-radius: 10px;
+    width: var(--apps);
+    height: var(--apps);
+    background-color: darkturquoise;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: background-color;
+    transition-duration: 2s;
+  }
+  
+  .app5:hover{
+    background-color: cyan;
+  }
+  
+  .app6 {
+    border-radius: 10px;
+    width: var(--apps);
+    height: var(--apps);
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: background-color;
+    transition-duration: 2s;
+  }
+  
+  .app6:hover{
+    background-color: cyan;
+  }
+  
+  .app7 {
+    border-radius: 10px;
+    width: var(--apps);
+    height: var(--apps);
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: background-color;
+    transition-duration: 2s;
+  }
+  
+  .app7:hover{
+    background-color: cyan;
+  }
+  
+  .app8 {
+    border-radius: 10px;
+    width: var(--apps);
+    height: var(--apps);
+    background-color: darkslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: background-color;
+    transition-duration: 2s;
+  }
+  
+  .app8:hover{
+    background-color: cyan;
+  }
+  
+  .app9 {
+    border-radius: 10px;
+    width: var(--apps);
+    height: var(--apps);
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: background-color;
+    transition-duration: 2s;
+  }
+  
+  .app9:hover{
+    background-color: cyan;
+  }
+  
+  .app10 {
+    border-radius: 10px;
+    width: var(--apps);
+    height: var(--apps);
+    background-color: steelblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: background-color;
+    transition-duration: 2s;
+  }
+  
+  .app10:hover{
+    background-color: cyan;
+  }
+  
+  .app11 {
+    border-radius: 10px;
+    width: var(--apps);
+    height: var(--apps);
+    background-color: royalblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: background-color;
+    transition-duration: 2s;
+  }
+  
+  .app11:hover{
+    background-color: cyan;
+  }
+  
+  .app12 {
+    border-radius: 10px;
+    width: var(--apps);
+    height: var(--apps);
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: background-color;
+    transition-duration: 2s;
+  }
+  
+  .app12:hover{
+    background-color: cyan;
+  }
+  
+  .app13 {
+    border-radius: 10px;
+    width: var(--apps);
+    height: var(--apps);
+    background-color: darkkhaki;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: background-color;
+    transition-duration: 2s;
+  }
+  
+  .app13:hover{
+    background-color: cyan;
+  }
+  
+  .app14 {
+    border-radius: 10px;
+    width: var(--apps);
+    height: var(--apps);
+    background-color: darkseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: background-color;
+    transition-duration: 2s;
+  }
+  
+  .app14:hover{
+    background-color: cyan;
+  }
+  
+  .app15 {
+    border-radius: 10px;
+    width: var(--apps);
+    height: var(--apps);
+    background-color: darkolivegreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: background-color;
+    transition-duration: 2s;
+  }
+  
+  .app15:hover{
+    background-color: cyan;
+  }
+  
+  .app16 {
+    border-radius: 10px;
+    width: var(--apps);
+    height: var(--apps);
+    background-color: darkgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: background-color;
+    transition-duration: 2s;
+  }
+  
+  .app16:hover{
+    background-color: cyan;
+  }
+  
+  .app17 {
+    border-radius: 10px;
+    width: var(--apps);
+    height: var(--apps);
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: background-color;
+    transition-duration: 2s;
+  }
+  
+  .app17:hover{
+    background-color: cyan;
+  }
+  
+  .app18 {
+    border-radius: 10px;
+    width: var(--apps);
+    height: var(--apps);
+    background-color: indianred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: background-color;
+    transition-duration: 2s;
+  }
+  
+  .app18:hover{
+    background-color: cyan;
+  }
+  
+  .app19 {
+    border-radius: 10px;
+    width: var(--apps);
+    height: var(--apps);
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: background-color;
+    transition-duration: 2s;
+  }
+  
+  .app19:hover{
+    background-color: cyan;
+  }
+  
+  
+  .app20 {
+    border-radius: 10px;
+    width: var(--apps);
+    height: var(--apps);
+    background-color: darkred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: background-color;
+    transition-duration: 2s;
+  }
+  
+  .app20:hover{
+    background-color: cyan;
+  }
