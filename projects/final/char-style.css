@@ -1,0 +1,47 @@
+header {
+    text-align: center;
+    background: gray;
+    font-family: Arial;
+    font-size: 30px;
+  }
+  
+  body {
+    background: maroon;
+  }
+  
+  img {
+    width: 100%;
+    display: flex;
+  }
+  
+  main {
+    max-width: 80ch;
+    margin: 3em auto;
+  }
+  
+  section {
+    background: lightgray;
+    margin: 1em 0;
+  }
+  
+  section h3 {
+    color: white;
+    background: gray;
+    padding: .5em;
+    margin: 0;
+    font-family: helvetica;
+  }
+  
+  section p {
+    padding: .5em;
+    margin: 0;
+    font-family: helvetica;
+  }
+  
+  a {
+    color: black;
+  }
+  
+  footer {
+    text-align: center;
+  }
