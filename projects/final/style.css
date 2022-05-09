@@ -5,11 +5,13 @@
   --secondary-font: helvetica;
 }
 
+
 header {
     text-align: center;
     background: limegreen;
     font-family: var(--main-font);
     font-size: 60px;
+    border-radius: 12em;
   }
   
   body {
@@ -20,6 +22,7 @@ header {
     width: 100%;
     display: block;
     margin: 1rem;
+    border-radius: 6rem;
   }
   
   main {
@@ -29,7 +32,7 @@ header {
   
   a {
     color: black;
-    font-family: var(--secondary-font);
+    font-family: var(--main-font);
     text-decoration: none;
     font-size: 50px;
   }
