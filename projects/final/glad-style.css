@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+:root {
+  --main-font: 'Poppins', sans-serif;
+  --secondary-font: helvetica;
+}
+
 header {
     text-align: center;
     background: mediumaquamarine;
-    font-family: Arial;
+    font-family: var(--main-font);
     font-size: 30px;
   }
   
@@ -29,13 +36,13 @@ header {
     background: mediumaquamarine;
     padding: .5em;
     margin: 0;
-    font-family: helvetica;
+    font-family: var(--main-font);
   }
   
   section p {
     padding: .5em;
     margin: 0;
-    font-family: helvetica;
+    font-family: var(--secondary-font);
   }
   
   a {

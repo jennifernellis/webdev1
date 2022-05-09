@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+:root {
+  --main-font: 'Poppins', sans-serif;
+  --secondary-font: helvetica;
+}
+
 header {
     text-align: center;
     background: limegreen;
-    font-family: Arial;
+    font-family: var(--main-font);
     font-size: 60px;
   }
   
@@ -22,7 +29,7 @@ header {
   
   a {
     color: black;
-    font-family: helvetica;
+    font-family: var(--secondary-font);
     text-decoration: none;
     font-size: 50px;
   }
