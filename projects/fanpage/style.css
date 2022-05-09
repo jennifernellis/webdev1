@@ -1,5 +1,10 @@
-/* Write all your custom CSS below this line  */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+:root {
+    --main-font: 'Poppins', sans-serif;
+    --secondary-font: helvetica;
+  }
+  
 body {
     margin: 0;
 }
